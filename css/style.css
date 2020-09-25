@@ -104,10 +104,10 @@ L A Y O U T  S T Y L E S
   padding-top: 50px;
 }
 .smile {
-  background-size: auto;
+  background-image: url("./images/freepik/man-smiling-alone.jpg");
 }
 .overflow {
-  overflow:scroll;
+  overflow: hidden;
 }
 
 /* ####################################################
