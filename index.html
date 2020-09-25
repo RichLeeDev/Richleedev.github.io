@@ -1,142 +1,254 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<html>
-	<head>
-		<title>Richard Lee's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+    <title>Rich Lee Design</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
 
-		<!-- Header -->
-			<header id="header">
-				<h1>Richard Lee</h1>
-				<nav>
-					<ul>
-						<li><a href="#intro">Home</a></li>
-						<li><a href="#one">About Me</a></li>
-						<li><a href="#work">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+  <body>
 
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<!-- input video background -->
-				<!-- <video autoplay muted loop>
-					<source src="assets/css/videos/heaer-video.mp4" type="mp4">
-				</video> -->
-				<div class="content">
-					<header>
-						<h2>RichLeeDesign<h2>
-					</header>
+    <!-- Header + Nav -->
 
-					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
-				</div>
-			</section>
+    <div class="bg-green text-white font-display">
+      <div class="relative container mx-auto h-screen flex items-center py-4 px-6">
+        <header class="w-full xl:w-1/2">
+          <img class="w-24 md:w-32 mb-6 xl:mb-12 r-logo" src="./images/freepik/R-logo.jpg" alt="Backstage Logo">
+          <div>
+            <h2 class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display" id="greeting">Hello! </h2>
 
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>About Me</h2>
-					</header>
-					<p>Front-End Web Developer Proficient in:<br /p>
-					<p>HTML - CSS - SASS - JAVASCRIPT - JQUERY - REACT<br /p>
-					<p>FPS Gamer - PC Builder - Competitive - Active Lifestyle<br /p>
-						<!-- input a list here showcasing skill with a bar graph of how many power levels out of 5 -->
-				</div>
-				<a href="#work" class="button style2 down anchored">Next</a>
-			</section>
+            <h1 class="ml10">
+              <span class="text-wrapper">
+                <span class="letters">The title changes when you refresh ^^</span>
+              </span>
+            </h1>
 
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content">
-					<header>
-						<h2>Porfolio</h2>
-					</header>
+            <p class="lead text-lg md:text-xl lg:text-2xl">Creating dynamic and responsive pages that have a priority in loading speed and performance. Minimalistic styling.</p>
+          </div>
+        </header>
+        <nav class="absolute top-0 right-0 mt-10 px-6">
+          <a class="opacity-75 text-lg font-body font-black" href="#" @click="open = true">menu</a>
+        </nav>
+      </div>
+    </div>
 
-					<!-- Gallery  -->
-						<div class="gallery">
-							<article class="from-left">
-								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
-							</article>
-							<article class="from-left">
-								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
-							</article>
-							<article class="from-right">
-								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-							</article>
-						</div>
+    <!-- About Me -->
 
-				</div>
-			</section>
+    <div class="container-fluid text-center" id="about">
+      <div class="row">
+        <div class="col-lg-12 background h-screen mb-5 text-center">
+          <h2 class="background-title mb-2 mt-10">Background</h2>
+          <p class="lead background-info text-center">
+            Started work at the young age of 16 at my families clothing business which was when I really learned about diligence and hard-work.
+            Worked in the hospitality field in my early 20s which improved my social skills, teamwork, and work ethics just to name a few.
+            Always had an interest in the tech field, spent a good chunk of my college years to search what I had a passion towards and found web development.
+            My goals right now is to become a very solid front-end developer who specializes in javascript then become a full-stack developer.
+            I'm great with a team or working indivdual and I'm quick to learn and adapt.
+          </p>
+          <img class="smile" src="./images/freepik/man-smiling-alone.jpg" />
+        </div>
 
-		<!-- Contact -->
-			<section id="contact" class="main style3 secondary">
-				<div class="content">
-					<header>
-						<h2>Say Hello.</h2>
-						<p></p>
-					</header>
-					<div class="box">
-						<form method="post" action="#">
-							<div class="fields">
-								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-							</div>
-							<ul class="actions special">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</form>
-					</div>
-				</div>
-			</section>
+        <!-- <div class="bg-green col-lg-5 list-group skill mx-3 mt-5 mb-5 text-center">
+          <h2 class="">Skills</h2>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>HTML</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>CSS</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>JAVASCRIPT</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>BOOTSTRAP</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>REACT</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>AJAX</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>NPM</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>GIT</strong></a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>SASS</strong></a>
+        </div>
+        <div class="bg-green col-lg-5  list-group mx-3 mt-5 mb-5 text-center">
+          <h2 class="mb-2">Hobbies</h2>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Videos Games(Mainly FPS)</strong>: Valorant</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Golf</strong>: Wilson or Balboa usually but I like new golf courses</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Tennis</strong>: Good enough to play but not to win</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Hiking</strong>: Trails that end in a waterfall or a beautiful scenery</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Working Out</strong>: 4 times a week</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Outdoor Activities</strong>: anything adventerous I'm in!</a>
+          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>D.I.Y</strong>: Creating things with my hands. The best!</a>
+        </div>
+      </div> -->
+    </div>
 
-		<!-- Footer -->
-			<footer id="footer">
+    <!-- /About Me -->
 
-				<!-- Icons -->
-					<ul class="icons">
+    <!-- Projects -->
+
+    <div class="container-fluid h-screen text-center mt-5" id="projects">
+
+      <!-- title -->
+
+      <h2 class="mb-5">Projects</h1>
+
+      <!-- title -->
+
+      <!-- row 1 -->
+
+      <div class="row mx-5 mb-5">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Web Style Guide</h4>
+              <img />
+              <p class="card-text">This project demonstrates a fully responsive layout using UI Circle kit with an example of different styling and layout used in a webpage.</p>
+              <button class="button"><a href="http://www.richleedesign.com/Web-Style-Guide/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Responsive Layout</h4>
+              <p>This project shows my ability to create responsive layouts and to utilize some images and color schemes.</p>
+              <button class="button"><a href="http://www.richleedesign.com/Responsive-Layout/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Web App Dashboard</h4>
+              <p class="card-text">This displays charts and information regarding satistics and</p>
+              <button class="button"><a href="http://www.richleedesign.com/WebApp-Dashboard/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Online Registration</h4>
+              <p class="card-text">A minimalistic designed form mainly used for mobile. It can be media queried to ratio into a webpage. I simply wanted to create one that was just for mobile while normally all webpoages I create are responsive.</p>
+              <button class="button"><a href="http://www.richleedesign.com/online_registration_v4/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Employee Directory</h4>
+              <p class="card-text">Displays all employees in a grid style. Added a modal to access more details about an employee if you simply click on their picture or near the picture.</p>
+              <button class="button"><a href="http://www.richleedesign.com/EmployeeDirectory/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">Photo Gallery</h4>
+              <p class="card-text">A gallery of images that can be viewed in a lightbox format. Able to switch between images while in lightbox, and a search bar that dynamically filters the images based on input.</p>
+              <button class="button"><a href="http://www.richleedesign.com/Interactive-Photo-Gallery/">Check it out</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /row 1 -->
 
 
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+      <!-- <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">title goes here</h4>
+              <p class="card-text">[brief descript and skills used]</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">title goes here</h4>
+              <p class="card-text">[brief descript and skills used]</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="" alt="" />
+            <div class="card-body">
+              <h4 class="card-title">title goes here</h4>
+              <p class="card-text">[brief descript and skills used]</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
 
 
-					</ul>
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy;
-					</ul>
+    </div>
 
-			</footer>
+    <!-- /Projects -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- footer -->
 
-	</body>
+<div class="row py-3 bg-green text-white">
+  <div class="col-md-7">
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+</ul>
+  </div>
+  <div class="col-md text-md-right">
+    <a href="https://www.freepik.com/vectors/people">People vector created by freepik - www.freepik.com</a>
+    <small>&copy; 2020 Rich Lee Design &amp; R.L.D.</small>
+  </div>
+</div>
+
+    <!-- /footer -->
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
