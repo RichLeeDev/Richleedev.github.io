@@ -1,7 +1,7 @@
 var getTag = document.getElementById('greeting');
 
 function getTxt(){
-	var greetings = ['Welcome', 'Hope your days going well.', 'Hint. I change when you refresh the page..', 'The creators name is Richard Lee! Shhh I didnt tell you..'];
+	var greetings = ['Welcome!', 'Hope your day is going well.', 'Hint. Your Amazing.', 'I appreciate you.'];
 	var chooseOne = Math.floor(Math.random() * greetings.length);
 	var breakDown = greetings[chooseOne].split('');
 	for(i=0; i<breakDown.length; i++){
