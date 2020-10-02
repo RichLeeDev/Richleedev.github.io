@@ -26,32 +26,42 @@
   <body>
 
     <!-- Header + Nav -->
-
+    <div class="header"></div>
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+      <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+          <li>Richard Lee <span>Front-End Web Developer</span></li>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="https://www.linkedin.com/in/richlee81192/" target="_blank">Linkedin</a></li>
+        </ul>
+    </div>
     <div class="bg-green text-white font-display">
       <div class="relative container mx-auto h-screen flex items-center py-4 px-6">
         <header class="w-full xl:w-1/2">
-          <img class="w-24 md:w-32 mb-6 xl:mb-12 r-logo" src="./images/freepik/R-logo.jpg" alt="Backstage Logo">
+          <img class="w-24 md:w-32 mb-6 xl:mb-12 r-logo" src="./images/freepik/man-smiling-alone.jpg" alt="logo">
           <div>
-            <h2 class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display orange" id="greeting">Hello. </h2>
-
+            <h2 class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display blue" id="greeting">Hello! </h2>
+            <p class="lead text-lg md:text-xl lg:text-2xl blue">Creating dynamic and responsive pages that have a priority in loading speed and performance. Minimalistic styling.</p>
             <h1 class="ml10">
               <span class="text-wrapper">
-                <span class="letters orange">The title changes when you refresh ^^</span>
+                <span class="letters blue">The title changes when you refresh ^^</span>
               </span>
             </h1>
-
-            <p class="lead text-lg md:text-xl lg:text-2xl orange">Creating dynamic and responsive pages that have a priority in loading speed and performance. Minimalistic styling.</p>
           </div>
         </header>
-        <nav class="absolute top-0 right-0 mt-10 px-6">
-          <a class="opacity-75 text-lg font-body font-black orange" href="#" @click="open = true">menu</a>
-        </nav>
       </div>
     </div>
 
     <!-- About Me -->
 
-    <div class="container-fluid text-center smile" id="about">
+    <div class="container-fluid text-center" id="about">
       <div class="row">
         <div class="col-lg-12 background h-screen mb-5 text-center">
           <h2 class="background-title mb-2 mt-10 orange">Background</h2>
@@ -94,16 +104,16 @@
 
       <!-- title -->
 
-      <h2 class="mb-5">Projects</h1>
+      <h2 class="mb-5 project-title">Projects</h2>
 
       <!-- title -->
 
       <!-- row 1 -->
 
-      <div class=" orange row mx-5 mb-5">
+      <div class="blue row mx-5 mb-5">
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="./images/freepik/web-styling.jpg" alt="" />
             <div class="card-body">
               <h4 class="card-title">Web Style Guide</h4>
               <img />
@@ -114,7 +124,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
             <div class="card-body">
               <h4 class="card-title">Responsive Layout</h4>
               <p>This project shows my ability to create responsive layouts and to utilize some images and color schemes.</p>
@@ -124,7 +134,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
             <div class="card-body">
               <h4 class="card-title">Web App Dashboard</h4>
               <p class="card-text">This displays charts and information regarding satistics and</p>
@@ -134,7 +144,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
             <div class="card-body">
               <h4 class="card-title">Online Registration</h4>
               <p class="card-text">A minimalistic designed form mainly used for mobile. It can be media queried to ratio into a webpage. I simply wanted to create one that was just for mobile while normally all webpoages I create are responsive.</p>
@@ -144,7 +154,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="" alt="" />
             <div class="card-body">
               <h4 class="card-title">Employee Directory</h4>
               <p class="card-text">Displays all employees in a grid style. Added a modal to access more details about an employee if you simply click on their picture or near the picture.</p>
@@ -154,7 +164,7 @@
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="bg-green card mb-3">
-            <img class="card-img-top" src="" alt="" />
+            <img class="card-img-top picture" src="" alt="" />
             <div class="card-body">
               <h4 class="card-title">Photo Gallery</h4>
               <p class="card-text">A gallery of images that can be viewed in a lightbox format. Able to switch between images while in lightbox, and a search bar that dynamically filters the images based on input.</p>
@@ -205,7 +215,7 @@
 
     <!-- footer -->
 
-<div class="row py-3 bg-green text-white">
+<div class="footer row py-3 bg-green text-white">
   <div class="col-md-7">
     <ul class="nav">
   <li class="nav-item">
