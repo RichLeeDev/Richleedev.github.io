@@ -19,6 +19,10 @@
       rel="stylesheet"
       href="./css/style.css"
     />
+    <link
+      rel="stylesheet"
+      href="./css/project-cards.css"
+    />
     <title>Rich Lee Design</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
@@ -45,7 +49,7 @@
     <div class="bg-green text-white font-display">
       <div class="relative container mx-auto h-screen flex items-center py-4 px-6">
         <header class="w-full xl:w-1/2">
-          <img class="w-24 md:w-32 mb-6 xl:mb-12 r-logo" src="./images/freepik/man-smiling-alone.jpg" alt="logo">
+          <img class="w-24 md:w-32 mb-6 xl:mb-12 r-logo" src="./images/profile.jpg" alt="logo">
           <div>
             <h2 class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display blue" id="greeting">Hello! </h2>
             <p class="lead text-lg md:text-xl lg:text-2xl blue">Creating dynamic and responsive pages that have a priority in loading speed and performance. Minimalistic styling.</p>
@@ -66,113 +70,66 @@
         <div class="col-lg-12 background h-screen mb-5 text-center">
           <h2 class="background-title mb-2 mt-10 orange">Background</h2>
           <p class="lead background-info text-center">
-
+            [ write here ]
           </p>
-          <!-- <img class="smile" src="./images/freepik/man-smiling-alone.jpg" /> -->
         </div>
-
-        <!-- <div class="bg-green col-lg-5 list-group skill mx-3 mt-5 mb-5 text-center">
-          <h2 class="">Skills</h2>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>HTML</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>CSS</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>JAVASCRIPT</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>BOOTSTRAP</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>REACT</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>AJAX</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>NPM</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>GIT</strong></a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>SASS</strong></a>
-        </div>
-        <div class="bg-green col-lg-5  list-group mx-3 mt-5 mb-5 text-center">
-          <h2 class="mb-2">Hobbies</h2>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Videos Games(Mainly FPS)</strong>: Valorant</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Golf</strong>: Wilson or Balboa usually but I like new golf courses</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Tennis</strong>: Good enough to play but not to win</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Hiking</strong>: Trails that end in a waterfall or a beautiful scenery</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Working Out</strong>: 4 times a week</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>Outdoor Activities</strong>: anything adventerous I'm in!</a>
-          <a href="#" class="list-group-item list-group-item-action rounded mt-3 mx-2"><strong>D.I.Y</strong>: Creating things with my hands. The best!</a>
-        </div>
-      </div> -->
     </div>
 
     <!-- /About Me -->
 
     <!-- Projects -->
 
-    <div class="container-fluid text-center" id="projects">
+<div class="container text-center" id="projects">
 
       <!-- title -->
 
-      <h2 class="mb-5 project-title">Projects</h2>
+<h2 class="mb-5 project-title">Projects</h2>
 
-      <!-- title -->
-
-      <!-- row 1 -->
-
-      <div class="blue row mx-5 mb-5">
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="./images/freepik/web-styling.jpg" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Web Style Guide</h4>
-              <img />
-              <p class="card-text">This project demonstrates a fully responsive layout using UI Circle kit with an example of different styling and layout used in a webpage.</p>
-              <a href="http://www.richleedesign.com/Web-Style-Guide/" target="_blank"><button class="button">Check it out</button></a>
+      <!-- /title -->
+<section class="hero-section">
+  <div class="card-grid">
+          <a class="card" href="http://www.richleedesign.com/Web-Style-Guide/" target="_blank">
+            <div class="card__background" style="background-image: url(./images/freepik/web-styling.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS</p>
+              <h3 class="card__heading">Web Style Guide</h3>
+              <p class="card__category">
+                This project showcases the different stylings that I have learned in my developer journey.
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Responsive Layout</h4>
-              <p>This project shows my ability to create responsive layouts and to utilize some images and color schemes.</p>
-              <a href="http://www.richleedesign.com/Responsive-Layout/" target="_blank"><button class="button">Check it out</button></a>
+          </a>
+          <a class="card" href="http://www.richleedesign.com/Responsive-Layout/" target="_blank">
+            <div class="card__background" style="background-image: url(./images/freepik/responsive-layout.jpg)"></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS</p>
+              <h3 class="card__heading">Responsive-layout</h3>
+              <p class="card__category">
+                This project demonstrates my ability to handle a mobile-first responsive design.
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Web App Dashboard</h4>
-              <p class="card-text">This displays charts and information regarding satistics and</p>
-              <a href="http://www.richleedesign.com/WebApp-Dashboard/" target="_blank"><button class="button">Check it out</button></a>
+          </a>
+          <a class="card" href="http://www.richleedesign.com/WebApp-Dashboard/" target="_blank">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS JS</p>
+              <h3 class="card__heading">WebApp-Dashboard</h3>
+              <p class="card__category">
+                This project utilized plugins, frameworks, and displays a standard stats dashboard webpage.
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="./images/freepik/responsive-layout.jpg" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Online Registration</h4>
-              <p class="card-text">A minimalistic designed form mainly used for mobile. It can be media queried to ratio into a webpage. I simply wanted to create one that was just for mobile while normally all webpoages I create are responsive.</p>
-              <a href="http://www.richleedesign.com/online_registration_v4/" target="_blank"><button class="button">Check it out</button></a>
+          </a>
+          <a class="card" href="http://www.richleedesign.com/Interactive-Photo-Gallery/">
+            <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS JS</p>
+              <h3 class="card__heading">Photo Gallery</h3>
+              <p class="card__category">
+                A simple photo gallery using lightbox for the modal view.
+              </p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Employee Directory</h4>
-              <p class="card-text">Displays all employees in a grid style. Added a modal to access more details about an employee if you simply click on their picture or near the picture.</p>
-              <a href="http://www.richleedesign.com/EmployeeDirectory/" target="_blank"><button class="button">Check it out</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="bg-green card mb-3">
-            <img class="card-img-top picture" src="" alt="" />
-            <div class="card-body">
-              <h4 class="card-title">Photo Gallery</h4>
-              <p class="card-text">A gallery of images that can be viewed in a lightbox format. Able to switch between images while in lightbox, and a search bar that dynamically filters the images based on input.</p>
-              <a href="http://www.richleedesign.com/Interactive-Photo-Gallery/" target="_blank"><button class="button">Check it out</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
+          </a>
+  </div>
+</section>
 
       <!-- /row 1 -->
 

@@ -56,15 +56,6 @@ L A Y O U T  S T Y L E S
   letter-spacing: 1.1;
   line-height: 1.4;
 }
-.card {
-  min-height: 300px;
-  max-height: 600px;
-  max-width: 450px;
-  box-shadow: inset 0 0 0 2px #66FCF1;
-}
-.card-body button {
-  font-size: 18px;
-}
 .navbar-nav a {
   margin-left: 20px;
 }
@@ -77,19 +68,19 @@ L A Y O U T  S T Y L E S
   height: 850px;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 .container {
-    width: 100%;
+  width: 100%;
 }
 .relative {
-    position: relative;
+  position: relative;
 }
 .top-0 {
-    top: 0;
+  top: 0;
 }
 .right-0 {
-    right: 0;
+  right: 0;
 }
 .absolute {
   position: absolute;
@@ -100,9 +91,6 @@ L A Y O U T  S T Y L E S
 }
 .background-title {
   padding-top: 50px;
-}
-.smile {
-  background-image: url("./images/freepik/man-smiling-alone.jpg");
 }
 .overflow {
   overflow: hidden;
@@ -177,7 +165,7 @@ H E A D E R   S T Y L E S
 }
 .r-logo {
   border-radius: 50%;
-  height: 100px;
+  height: 400px;
   width: auto;
   opacity: 1;
 }
@@ -206,6 +194,12 @@ M E D I A  Q U E R I E S
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h1 {font-size:7.2rem;} /*1rem = 16px*/
+  .r-logo {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+    opacity: 1;
+  }
 }
 @media (min-width: 1024px) {
   .container { max-width: 1024px;}
@@ -244,9 +238,11 @@ letter animation
   line-height: 1em;
   transform-origin: 0 0;
 }
+
 /* ####################################################
-  menu
+  M E N U  S T Y L E S
 #################################################### */
+
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
