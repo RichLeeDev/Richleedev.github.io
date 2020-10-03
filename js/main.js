@@ -21,7 +21,7 @@ function randomColor(){
 	var browserPrefix = ['webkit', 'moz', 'o', 'ms'];
 	var colorCount = getTag.children.length;
 
-	for(k=0; k<browserPrefix.length; k++){
+	for(let k=0; k<browserPrefix.length; k++){
 		var tagParts1 = ['#greeting span{', '-'+browserPrefix[k]+'-animation-duration:6s;-'+browserPrefix[k]+'-animation-timing-function:ease;-'+browserPrefix[k]+'-animation-iteration-count:infinite;', '}'];
 		var partsTogether1;
 		if(k === 0){
@@ -38,7 +38,7 @@ function randomColor(){
 	}
 
 	for(let i= 0; i<colorCount; i++){
-		for(j=0; j<browserPrefix.length; j++){
+		for(let j=0; j<browserPrefix.length; j++){
 			var tagParts2 = ['#greeting span:nth-child('+(i+1)+'){', '-'+browserPrefix[j]+'-animation-name:anim'+(i+1)+';', '}'];
 			var partsTogether2;
 			if(j === 0){
@@ -77,7 +77,7 @@ randomColor();
 var textWrapper = document.querySelector('.ml10 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: false})
+ anime.timeline({loop: false})
   .add({
     targets: '.ml10 .letter',
     rotateY: [-90, 0],
