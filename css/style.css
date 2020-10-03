@@ -90,6 +90,7 @@ L A Y O U T  S T Y L E S
 .background-info {
   padding: 5% 15px;
   font-weight: 600;
+  overflow: hidden;
 }
 .background-title {
   padding-top: 50px;
@@ -108,7 +109,6 @@ L A Y O U T  S T Y L E S
   border-top: 1px solid #65FBEF;
   border-bottom: 1px solid #65FBEF;
   min-height: 300px;
-  max-height: 750px;
   background: #74E2DC;
   font-weight: bolder;
 }

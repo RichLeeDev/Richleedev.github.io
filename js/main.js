@@ -1,7 +1,7 @@
 var getTag = document.getElementById('greeting');
 
 function getTxt(){
-	var greetings = ['Welcome!', 'Hope your day is going well.', 'Hint. Your Amazing.', 'I appreciate you.'];
+	var greetings = ['Welcome!', 'Bonjour', 'Hola', 'Zdravstvuyte', '你好(Nǐn hǎo)', 'Salve', 'こんにちは(Konnichiwa)', 'Guten Tag', 'Olá', '안녕하세요!', 'Asalaam alaikum (Peace be upon you)', 'Shalom', 'Namaste', 'Dzień dobry', 'Shikamoo'];
 	var chooseOne = Math.floor(Math.random() * greetings.length);
 	var breakDown = greetings[chooseOne].split('');
 	for(let i= 0; i<breakDown.length; i++){
