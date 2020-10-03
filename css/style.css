@@ -23,8 +23,11 @@ a {
 I D  S T Y L E S
 #################################################### */
 
-#email,
-#phone  {
+#email {
+  font-size: 12px;
+}
+
+#phone {
   font-size: 12px;
 }
 
