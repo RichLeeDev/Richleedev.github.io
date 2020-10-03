@@ -1,4 +1,5 @@
 @import "project-cards.css";
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 /* ####################################################
 B A S E  S T Y L E S
 #################################################### */
@@ -38,7 +39,6 @@ L A Y O U T  S T Y L E S
 .header-container {
   padding-top: 50px;
 }
-}
 .available {
   color: green;
 }
@@ -55,7 +55,7 @@ L A Y O U T  S T Y L E S
   color: #45A29E;
 }
 .name {
-  letter-spacing: 1.1;
+  letter-spacing: 1.1px;
   line-height: 1.4;
 }
 .navbar-nav a {
@@ -122,7 +122,6 @@ H E A D E R   S T Y L E S
 #################################################### */
 
 .text-white {
-  --text-opacity: 1;
   color: #fff;
   color: rgba(255,255,255,var(--text-opacity));
 }
@@ -133,7 +132,6 @@ H E A D E R   S T Y L E S
     font-family: Neuzeit S LT Std, sans-serif;
 }
 .bg-green {
-    --bg-opacity: 1;
     background-color: #1F2833;
 }
 .text-base {
@@ -251,8 +249,6 @@ letter animation
 /* ####################################################
   M E N U  S T Y L E S
 #################################################### */
-
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 html, body {
     overflow-x: hidden;
     height: 100%;

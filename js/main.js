@@ -4,7 +4,7 @@ function getTxt(){
 	var greetings = ['Welcome!', 'Hope your day is going well.', 'Hint. Your Amazing.', 'I appreciate you.'];
 	var chooseOne = Math.floor(Math.random() * greetings.length);
 	var breakDown = greetings[chooseOne].split('');
-	for(i=0; i<breakDown.length; i++){
+	for(let i= 0; i<breakDown.length; i++){
 		var injectSpans = document.createElement('span');
 		var injectLetters = document.createTextNode(breakDown[i]);
 
@@ -24,7 +24,7 @@ function randomColor(){
 	for(k=0; k<browserPrefix.length; k++){
 		var tagParts1 = ['#greeting span{', '-'+browserPrefix[k]+'-animation-duration:6s;-'+browserPrefix[k]+'-animation-timing-function:ease;-'+browserPrefix[k]+'-animation-iteration-count:infinite;', '}'];
 		var partsTogether1;
-		if(k == 0){
+		if(k === 0){
 			partsTogether1 = tagParts1[0]+''+tagParts1[1];
 		}
 		else if(k == (browserPrefix.length-1)){
@@ -37,35 +37,35 @@ function randomColor(){
 		keyFrameAnim.appendChild(injectCSS);
 	}
 
-	for(i=0; i<colorCount; i++){
+	for(let i= 0; i<colorCount; i++){
 		for(j=0; j<browserPrefix.length; j++){
 			var tagParts2 = ['#greeting span:nth-child('+(i+1)+'){', '-'+browserPrefix[j]+'-animation-name:anim'+(i+1)+';', '}'];
 			var partsTogether2;
-			if(j == 0){
+			if(j === 0){
 				partsTogether2 = tagParts2[0]+''+tagParts2[1];
 			}
-			else if(j == (browserPrefix.length-1)){
+			else if(j === (browserPrefix.length-1)){
 				partsTogether2 = tagParts2[1]+''+tagParts2[2];
 			}
 			else{
 				partsTogether2 = tagParts2[1];
 			}
-			var injectCSS = document.createTextNode(partsTogether2);
+			 var injectCSS = document.createTextNode(partsTogether2);
 			keyFrameAnim.appendChild(injectCSS);
 		}
 	}
 
-	for(l=0; l<colorCount; l++){
-		for(j=0; j<browserPrefix.length; j++){
+	for(let l= 0; l<colorCount; l++){
+		for(let j= 0; j<browserPrefix.length; j++){
 			var allColors = ['364ACF', 'eb3c3c', 'e57201', 'e530a3', '247d2f', '8f3eb5'];
 			var randomColor = [];
-			for(r=0; r<6; r++){
+			for(let r= 0; r<6; r++){
 				var newColor = Math.floor(Math.random() * allColors.length);
 				var getFromArray = allColors.splice(newColor,1);
 				randomColor.push(getFromArray);
 			}
 
-			var injectCSS = document.createTextNode('@-'+browserPrefix[j]+'-keyframes anim'+(l+1)+'{0%{color:#'+randomColor[0]+';}16.6%{color:#'+randomColor[1]+';}33.2%{color:#'+randomColor[2]+';}49.8%{color:#'+randomColor[3]+';}66.4%{color:#'+randomColor[4]+';}83.1%{color:#'+randomColor[5]+';}100%{color:#'+randomColor[0]+';}}');
+			 var injectCSS = document.createTextNode('@-'+browserPrefix[j]+'-keyframes anim'+(l+1)+'{0%{color:#'+randomColor[0]+';}16.6%{color:#'+randomColor[1]+';}33.2%{color:#'+randomColor[2]+';}49.8%{color:#'+randomColor[3]+';}66.4%{color:#'+randomColor[4]+';}83.1%{color:#'+randomColor[5]+';}100%{color:#'+randomColor[0]+';}}');
 			keyFrameAnim.appendChild(injectCSS);
 		}
 	}
