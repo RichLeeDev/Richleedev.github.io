@@ -9,7 +9,14 @@ B A S E  S T Y L E S
 *, :after, :before {
     border: 0 solid #ebebeb;
 }
-h1 {font-size:2rem;} /*1rem = 16px*/
+h1 {
+  font-size:2rem; /*1rem = 16px*/
+}
+h1,
+h2,
+h3 {
+  cursor: default;
+}
 
 nav {
     display: block;
@@ -23,6 +30,7 @@ a {
 
 p {
   font-size: 12px;
+  cursor: default;
 }
 /* ####################################################
 I D  S T Y L E S
