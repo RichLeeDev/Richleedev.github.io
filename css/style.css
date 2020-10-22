@@ -9,7 +9,7 @@ B A S E  S T Y L E S
 *, :after, :before {
     border: 0 solid #ebebeb;
 }
-h1 {font-size:5rem;} /*1rem = 16px*/
+h1 {font-size:2rem;} /*1rem = 16px*/
 
 nav {
     display: block;
@@ -19,6 +19,10 @@ a {
     color: inherit;
     text-decoration: inherit;
     cursor: pointer;
+}
+
+p {
+  font-size: 12px;
 }
 /* ####################################################
 I D  S T Y L E S
@@ -38,9 +42,6 @@ L A Y O U T  S T Y L E S
 
 .header-container {
   padding-top: 50px;
-}
-.available {
-  color: green;
 }
 .button {
   padding: 18px 36px;
