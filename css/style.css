@@ -16,6 +16,8 @@ h1,
 h2,
 h3 {
   cursor: default;
+  text-shadow: 2px 2px 1px #222;
+  text-transform: uppercase;
 }
 
 nav {
@@ -42,6 +44,10 @@ I D  S T Y L E S
 
 #phone {
   font-size: 12px;
+}
+
+#greeting {
+  text-shadow: 0 1px 1px rgba(5px, 5px, 0, 0.8);
 }
 
 /* ####################################################
@@ -124,6 +130,10 @@ L A Y O U T  S T Y L E S
 .medium-hidden {
   display: none;
   background: #74E2DC;
+}
+
+.hero-section {
+  background-color: #1F2833;
 }
 
 /* ####################################################
