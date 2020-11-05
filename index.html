@@ -15,44 +15,56 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="./css/style.css"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>RichLeeDesign</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
 
   <body>
-
     <!-- Header + Nav -->
     <div class="header"></div>
-      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-      <label for="openSidebarMenu" class="sidebarIconToggle">
-        <span class="spinner diagonal part-1"></span>
-        <span class="spinner horizontal"></span>
-        <span class="spinner diagonal part-2"></span>
-      </label>
-      <div id="sidebarMenu">
-        <ul class="sidebarMenuInner">
-          <li>Richard Lee <span>Front-End Web Developer</span></li>
-          <li><span id="email">Richleedeveloper@gmail.com</span></li>
-          <li><span id="phone">(818)-288-6644</span></li>
-          <li><a href="#top">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="https://www.linkedin.com/in/richlee81192/" target="_blank">Linkedin</a></li>
-        </ul>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+      <span class="spinner diagonal part-1"></span>
+      <span class="spinner horizontal"></span>
+      <span class="spinner diagonal part-2"></span>
+    </label>
+    <div id="sidebarMenu">
+      <ul class="sidebarMenuInner">
+        <li>Richard Lee <span>Front-End Web Developer</span></li>
+        <li><span id="email">Richleedeveloper@gmail.com</span></li>
+        <li><span id="phone">(818)-288-6644</span></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/richlee81192/" target="_blank"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
     </div>
     <div class="bg-green text-whitefont-display">
-      <div class="relative container mx-auto h-screen flex items-center py-4 px-5">
+      <div
+        class="relative container mx-auto h-screen flex items-center py-4 px-5"
+      >
         <header class="w-full xl:w-1/2">
           <div>
-            <h1 class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display blue" id="greeting">Welcome </h1>
-            <h2 class="lead text-lg md:text-xl lg:text-2xl blue">Creating dynamic and responsive pages that have a priority in loading speed and performance. Minimalistic styling.</h2>
+            <h1
+              class="text-xl md:text-2xl lg:text-3xl mb-6 xl:mb-10 font-black font-display blue"
+              id="greeting"
+            >
+              Welcome
+            </h1>
+            <h2 class="lead text-lg md:text-xl lg:text-2xl blue">
+              Creating dynamic and responsive pages that have a priority in
+              loading speed and performance. Minimalistic styling.
+            </h2>
             <h3 class="ml10">
               <span class="text-wrapper">
-                <span class="letters blue">The title changes when you refresh ^^</span>
+                <span class="letters blue"
+                  >Dynamic greeting on refresh</span
+                >
               </span>
             </h3>
           </div>
@@ -67,16 +79,24 @@
         <div class="col-md-6 about-me h-screen mb-5 text-center">
           <h2 class="background-title mb-2 mt-10 orange">About Me</h2>
           <p class="lead background-info text-center px-6">
-            Born an raised in Burbank, California studied at TeamTreehouse and attained my certificate for Front-End Web Developer. Previously had taken courses, and class in CS with a passion for technology at a young age.
-            Worked in hospitality at a young age, where I learned the importance of a strong work ethic. Great in a team environment or independent, and believe communication is key to success. Always learning, and staying humble to what I know, and improving on what I dont.
-            Will love to work with any passionate people and will bring value to any company.
+            Born an raised in Burbank, California studied at TeamTreehouse and
+            attained my certificate for Front-End Web Developer. Previously had
+            taken courses, and class in CS with a passion for technology at a
+            young age. Worked in hospitality at a young age, where I learned the
+            importance of a strong work ethic. Great in a team environment or
+            independent, and believe communication is key to success. Always
+            learning, and staying humble to what I know, and improving on what I
+            dont. Will love to work with any passionate people and will bring
+            value to any company.
           </p>
         </div>
         <div class="col-md-6 about-me medium-hidden mb-5">
-          <img class="w-24 md:w-32 mb-6 xl:mb-12 h-screen r-logo medium-hidden" src="./images/about-me.jpg" alt="logo">
-          <p>
-            RICHARD LEE Web Developer
-          </p>
+          <img
+            class="w-24 md:w-32 mb-6 xl:mb-12 h-screen r-logo medium-hidden"
+            src="./images/about-me.jpg"
+            alt="logo"
+          />
+          <p>RICHARD LEE Web Developer</p>
         </div>
       </div>
     </div>
@@ -85,104 +105,139 @@
 
     <!-- Projects -->
 
-<div class="container text-center" id="projects">
-
+    <div class="container text-center" id="projects">
       <!-- title -->
 
-  <h2 class="mb-5 project-title">Projects</h2>
+      <h2 class="mb-5 project-title">Projects</h2>
 
       <!-- /title -->
 
-  <section class="hero-section">
-    <div class="card-grid">
-      <a class="card" href="http://www.richleedesign.com/Web-Style-Guide/" target="_blank">
-      <div class="card__background" style="background-image: url(./images/freepik/web-styling.jpg)"></div>
-        <div class="card__content">
-          <p class="card__category">HTML CSS</p>
-          <h3 class="card__heading">Web Style Guide</h3>
-          <p class="card__category">
-          This project showcases the different stylings that I have learned in my developer journey.
-          </p>
+      <section class="hero-section">
+        <div class="card-grid">
+          <a
+            class="card"
+            href="http://www.richleedesign.com/Web-Style-Guide/"
+            target="_blank"
+          >
+            <div
+              class="card__background"
+              style="background-image: url(./images/freepik/web-styling.jpg)"
+            ></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS</p>
+              <h3 class="card__heading">Web Style Guide</h3>
+              <p class="card__category">
+                This project showcases the different stylings that I have
+                learned in my developer journey.
+              </p>
+            </div>
+          </a>
+          <a
+            class="card"
+            href="http://www.richleedesign.com/Responsive-Layout/"
+            target="_blank"
+          >
+            <div
+              class="card__background"
+              style="
+                background-image: url(./images/freepik/responsive-layout.jpg);
+              "
+            ></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS</p>
+              <h3 class="card__heading">Responsive-layout</h3>
+              <p class="card__category">
+                This project demonstrates my ability to handle a mobile-first
+                responsive design.
+              </p>
+            </div>
+          </a>
+          <a
+            class="card"
+            href="http://www.richleedesign.com/WebApp-Dashboard/"
+            target="_blank"
+          >
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS JS</p>
+              <h3 class="card__heading">WebApp-Dashboard</h3>
+              <p class="card__category">
+                This project utilized plugins, frameworks, and displays a
+                standard stats dashboard webpage.
+              </p>
+            </div>
+          </a>
+          <a
+            class="card"
+            href="http://www.richleedesign.com/Interactive-Photo-Gallery/"
+          >
+            <div
+              class="card__background"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+              "
+            ></div>
+            <div class="card__content">
+              <p class="card__category">HTML CSS JS</p>
+              <h3 class="card__heading">Photo Gallery</h3>
+              <p class="card__category">
+                A simple photo gallery using lightbox for the modal view.
+              </p>
+            </div>
+          </a>
         </div>
-      </a>
-      <a class="card" href="http://www.richleedesign.com/Responsive-Layout/" target="_blank">
-        <div class="card__background" style="background-image: url(./images/freepik/responsive-layout.jpg)"></div>
-        <div class="card__content">
-          <p class="card__category">HTML CSS</p>
-          <h3 class="card__heading">Responsive-layout</h3>
-          <p class="card__category">
-          This project demonstrates my ability to handle a mobile-first responsive design.
-          </p>
-        </div>
-      </a>
-      <a class="card" href="http://www.richleedesign.com/WebApp-Dashboard/" target="_blank">
-        <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-        <div class="card__content">
-          <p class="card__category">HTML CSS JS</p>
-          <h3 class="card__heading">WebApp-Dashboard</h3>
-          <p class="card__category">
-          This project utilized plugins, frameworks, and displays a standard stats dashboard webpage.
-          </p>
-        </div>
-      </a>
-      <a class="card" href="http://www.richleedesign.com/Interactive-Photo-Gallery/">
-        <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-        <div class="card__content">
-          <p class="card__category">HTML CSS JS</p>
-          <h3 class="card__heading">Photo Gallery</h3>
-          <p class="card__category">
-          A simple photo gallery using lightbox for the modal view.
-          </p>
-        </div>
-      </a>
+      </section>
     </div>
-  </section>
-</div>
 
     <!-- /Projects -->
 
     <!-- footer -->
 
-<div class="footer row py-3 bg-green text-white">
-  <div class="col-md-7">
-    <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">About Me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Contact Me</a>
-  </li>
-</ul>
-  </div>
-  <div class="col-md text-md-right">
-    <a href="https://www.freepik.com/vectors/people">People vector created by freepik - www.freepik.com</a>
-    <small>&copy;2020 Rich Lee Design &amp;R.L.D.</small>
-  </div>
-</div>
+    <div class="footer row py-3 bg-green text-white">
+      <div class="col-md-7">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md text-md-right">
+        <a href="https://www.freepik.com/vectors/people"
+          >People vector created by freepik - www.freepik.com</a
+        >
+        <small>&copy;2020 Rich Lee Design &amp;R.L.D.</small>
+      </div>
+    </div>
 
     <!-- /footer -->
 
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script
+    <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-  crossorigin="anonymous"
-></script>
-<script src="./js/main.js"></script>
-</body>
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
