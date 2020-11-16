@@ -1,0 +1,59 @@
+.background-info {
+    padding: 5% 15px;
+    font-weight: 600;
+    overflow: hidden;
+  }
+  .background-title {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-me {
+    color: #1F2832;
+    font-weight: bolder;
+    border-top: 1px solid #65FBEF;
+    border-bottom: 1px solid #65FBEF;
+    min-height: 300px;
+    background: #74E2DC;
+    font-weight: bolder;
+  }
+
+  .card-container {
+    background-color: #1F2833;
+  }
+
+  .ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 1em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+
+  .main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+}
+
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  *, :after, :before {
+      border: 0 solid #ebebeb;
+  }
+  h1 {
+    font-size:2rem; /*1rem = 16px*/
+  }
+  h1,
+  h2,
+  h3 {
+    cursor: default;
+    text-shadow: 2px 2px 1px #222;
+    text-transform: uppercase;
+  }
+  
+  nav {
+      display: block;
+  }
+  a {
+      background-color: transparent;
+      color: inherit;
+      text-decoration: inherit;
+      cursor: pointer;
+  }
+  
+  p {
+    font-size: 12px;
+    cursor: default;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    background: #0B0C10;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}

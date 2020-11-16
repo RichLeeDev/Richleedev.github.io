@@ -10,7 +10,7 @@
   --width-container: 1200px;
 }
 
-.hero-section{
+.card-container{
   align-items: flex-start;
   background-color: #0B0C10;
   display: flex;
