@@ -10,13 +10,10 @@
   }
 
   .about-me {
-    color: #1F2832;
+    color: white;
     font-weight: bolder;
-    border-top: 1px solid #65FBEF;
-    border-bottom: 1px solid #65FBEF;
-    min-height: 300px;
+    min-height: 500px;
     background: #74E2DC;
-    font-weight: bolder;
   }
 
   .card-container {
@@ -56,4 +53,8 @@
     height: 100%;
     width: 100%;
     text-align: center;
+}
+
+.hidden-till-med {
+  display: hidden;
 }
