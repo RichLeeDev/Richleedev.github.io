@@ -28,21 +28,8 @@ $flex: flex;
     overflow: hidden;
 }
 
-.blue {
+.teal {
     color: #66FCF1;
-  }
-
-.font-display {
-    font-family: Neuzeit S LT Std, sans-serif;
-  }
-
-  .bg-green {
-    /* background: linear-gradient(to right, #1F2833, transparent 50%), */
-                /* #1F2833 url('../images/profile.jpg') no-repeat right; */
-    background: #1F2833;
-  }
-  .text-base {
-    font-size: 1rem;
   }
   .h-screen {
     min-height: 100vh;
@@ -83,4 +70,7 @@ $flex: flex;
   }
   .font-body {
       font-family: NeuzeitGro,sans-serif;
+  }
+  .bg-teal {
+    background-color: #66FCF1;
   }

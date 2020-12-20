@@ -34,89 +34,77 @@
 }
 
 /* line 31, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
-.blue {
+.teal {
   color: #66FCF1;
 }
 
-/* line 35, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
-.font-display {
-  font-family: Neuzeit S LT Std, sans-serif;
-}
-
-/* line 39, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
-.bg-green {
-  /* background: linear-gradient(to right, #1F2833, transparent 50%), */
-  /* #1F2833 url('../images/profile.jpg') no-repeat right; */
-  background: #1F2833;
-}
-
-/* line 44, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
-.text-base {
-  font-size: 1rem;
-}
-
-/* line 47, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 34, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .h-screen {
   min-height: 100vh;
 }
 
-/* line 50, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 37, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 54, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 41, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
-/* line 57, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 44, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .mt-10 {
   margin-top: 2.5rem;
 }
 
-/* line 60, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 47, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-/* line 64, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 51, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* line 68, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 55, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .px-6 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
 
-/* line 72, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 59, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .items-center {
   align-items: center;
 }
 
-/* line 75, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 62, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .opacity-75 {
   opacity: .75;
 }
 
-/* line 78, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 65, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .text-lg {
   font-size: 1.125rem;
 }
 
-/* line 81, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 68, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .font-black {
   font-weight: 800;
 }
 
-/* line 84, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+/* line 71, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
 .font-body {
   font-family: NeuzeitGro,sans-serif;
+}
+
+/* line 74, ../Personal/Richleedev.github.io/scss/base/_variables.scss */
+.bg-teal {
+  background-color: #66FCF1;
 }
 
 /* ####################################################
@@ -142,7 +130,7 @@ M E D I A  Q U E R I E S
 @media (min-width: 768px) {
   /* line 14, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   h1 {
-    font-size: 6.7rem;
+    font-size: 5.7rem;
   }
   /*1rem = 16px*/
   /* line 15, ../Personal/Richleedev.github.io/scss/base/_media.scss */
@@ -200,20 +188,29 @@ h1 {
 }
 
 /* line 10, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+h2 {
+  font-size: 1.75rem;
+}
+
+/* line 13, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+h3 {
+  font-size: 1.25rem;
+}
+
+/* line 16, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 h1,
 h2,
 h3 {
   cursor: default;
-  text-shadow: 2px 2px 1px #222;
   text-transform: uppercase;
 }
 
-/* line 18, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+/* line 23, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 nav {
   display: block;
 }
 
-/* line 21, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+/* line 26, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 a {
   background-color: transparent;
   color: inherit;
@@ -221,21 +218,21 @@ a {
   cursor: pointer;
 }
 
-/* line 28, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+/* line 33, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 p {
-  font-size: 12px;
+  font-size: 16px;
   cursor: default;
 }
 
-/* line 33, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+/* line 38, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 html, body {
   overflow-x: hidden;
   height: 100%;
 }
 
-/* line 37, ../Personal/Richleedev.github.io/scss/base/_base.scss */
+/* line 42, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 body {
-  background: #0B0C10;
+  background: #fff;
   padding: 0;
   margin: 0;
   font-family: 'Varela Round', sans-serif;
@@ -2311,6 +2308,35 @@ C L A S S  S T Y L E S
   filter: brightness(0.95) saturate(1.2) contrast(0.75);
 }
 
+/* Style the video: 100% width and height to cover the entire window */
+/* line 2, ../Personal/Richleedev.github.io/scss/components/_video-header.scss */
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+}
+
+/* Add some content at the bottom of the video/page */
+/* line 11, ../Personal/Richleedev.github.io/scss/components/_video-header.scss */
+.content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 17, ../Personal/Richleedev.github.io/scss/components/_video-header.scss */
+.content-p {
+  font-weight: 600;
+}
+
+/* line 20, ../Personal/Richleedev.github.io/scss/components/_video-header.scss */
+.relative {
+  display: relative;
+}
+
 /* line 1, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
 .background-info {
   padding: 5% 15px;
@@ -2423,7 +2449,7 @@ body {
   width: 100%;
   max-width: 100%;
   box-shadow: none;
-  background-color: #45A29E;
+  background-color: black;
   position: fixed;
   height: 60px !important;
   overflow: hidden;

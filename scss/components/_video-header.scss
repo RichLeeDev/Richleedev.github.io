@@ -1,0 +1,22 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content-p {
+    font-weight: 600;
+  }
+  .relative {
+      display: relative;
+  }
