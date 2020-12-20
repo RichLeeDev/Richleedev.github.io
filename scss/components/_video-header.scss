@@ -1,9 +1,9 @@
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: relative;
-    right: 0;
-    bottom: 0;
-    width: 100vw;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: auto;
   }
   
@@ -14,9 +14,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  
   .content-p {
     font-weight: 600;
-  }
-  .relative {
-      display: relative;
   }
