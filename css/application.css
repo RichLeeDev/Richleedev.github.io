@@ -129,26 +129,26 @@ M E D I A  Q U E R I E S
 }
 
 @media (min-width: 544px) and (min-width: 1024px) {
-  /* line 26, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 28, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .container {
     max-width: 1024px;
   }
-  /* line 27, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 29, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   body {
     font-size: 22px;
   }
-  /* line 30, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 32, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .content-h {
     font-size: 65px;
   }
-  /* line 33, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 35, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .content-p {
     font-size: 28px;
   }
 }
 
 @media (min-width: 544px) and (min-width: 1280px) {
-  /* line 38, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 40, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .container {
     max-width: 1550px;
   }
@@ -159,15 +159,15 @@ M E D I A  Q U E R I E S
 }
 
 @media (min-width: 544px) and (min-width: 1400px) {
-  /* line 42, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 44, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   body {
     font-size: 28px;
   }
-  /* line 45, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 47, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .content-h {
     font-size: 72px;
   }
-  /* line 48, ../Personal/Richleedev.github.io/scss/base/_media.scss */
+  /* line 50, ../Personal/Richleedev.github.io/scss/base/_media.scss */
   .content-p {
     font-size: 32px;
   }
@@ -235,6 +235,7 @@ html, body {
 
 /* line 43, ../Personal/Richleedev.github.io/scss/base/_base.scss */
 body {
+  min-height: 100vh;
   background: #fff;
   padding: 0;
   margin: 0;
@@ -2300,17 +2301,6 @@ C L A S S  S T Y L E S
   padding: 0 24px;
 }
 
-/* line 1, ../Personal/Richleedev.github.io/scss/components/_icons.scss */
-.r-logo {
-  border-radius: 10%;
-  height: 300px;
-  width: auto;
-  padding: 20px;
-  margin: 40px;
-  opacity: 1;
-  filter: brightness(0.95) saturate(1.2) contrast(0.75);
-}
-
 /* Style the video: 100% width and height to cover the entire window */
 /* line 2, ../Personal/Richleedev.github.io/scss/components/_video-header.scss */
 #myVideo {
@@ -2336,41 +2326,24 @@ C L A S S  S T Y L E S
 }
 
 /* line 2, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
-.ml10 .text-wrapper {
+#page-container {
   position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* line 7, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
+#content-wrap {
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 /* line 11, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
-.ml10 .letter {
-  display: inline-block;
-  line-height: 1em;
-  transform-origin: 0 0;
-}
-
-/* line 17, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
-.main {
-  margin: 0 auto;
-  display: block;
-  height: 100%;
-  margin-top: 60px;
-}
-
-/* line 24, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
-.mainInner {
-  display: table;
-  height: 100%;
+#footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  text-align: center;
-}
-
-/* line 31, ../Personal/Richleedev.github.io/scss/layout/_containers.scss */
-.hidden-till-med {
-  display: hidden;
+  height: 2.5rem;
+  /* Footer height */
 }
 
 /* line 1, ../Personal/Richleedev.github.io/scss/layout/_header.scss */

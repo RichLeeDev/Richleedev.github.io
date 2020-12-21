@@ -16,95 +16,110 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/application.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>RichLeeDesign</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
 
   <body>
-    <!-- Nav -->
-    <div class="header"></div>
-    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
-    <label for="openSidebarMenu" class="sidebarIconToggle">
-      <span class="spinner diagonal part-1"></span>
-      <span class="spinner horizontal"></span>
-      <span class="spinner diagonal part-2"></span>
-    </label>
-    <div id="sidebarMenu">
-      <ul class="sidebarMenuInner">
-        <li>Richard Lee <span>Front-End Web Developer</span></li>
-        <li><span id="email">Richleedeveloper@gmail.com</span></li>
-        <li><span id="phone">(818)-288-6644</span></li>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li>
-          <a href="https://www.linkedin.com/in/richlee81192/" target="_blank"
-            >Linkedin</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <!-- /Nav -->
-
-    <!-- Video Header-->
-
-<div class="container-fluid relative">
-  <video autoplay muted loop id="myVideo">
-    <source src="videos/snow-top.mp4" type="video/mp4">
-  </video>
-
-  <!-- some overlay text to describe the video -->
-  <div class="content">
-    <h1 class="content-h teal">Richard Lee</h1>
-    <h3 class="content-p">Front-End Dev</h3>
-    <p class="content-p">Based in Cali</p>
-    <p class="content-p">Currently being Updated</p>
-  </div>
-    
-</div>
-
-    <!-- /Video Header-->
-
-    <!-- About Me -->
-
-    <div class="container-fluid" id="about">
-      <div class="row">
-        <div class="col-md-6 mb-5 text-center">
-          
+    <div id="page-container">
+      <div id="content-wrap">
+        <!-- Nav -->
+        <div class="header"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <span class="spinner diagonal part-1"></span>
+          <span class="spinner horizontal"></span>
+          <span class="spinner diagonal part-2"></span>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li>Richard Lee <span>Front-End Web Developer</span></li>
+            <li><span id="email"><a href="mailto:Richleedeveloper@gmail.com">Richleedeveloper@gmail.com</a></span></li>
+            <li><span id="phone">(818)-288-6644</span></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/richlee81192/" target="_blank"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="col-md-6 mb-5">
 
+        <!-- /Nav -->
+
+        <!-- Video Header-->
+
+        <div class="container-fluid relative">
+          <video autoplay muted loop id="myVideo">
+            <source src="videos/snow-top.mp4" type="video/mp4">
+          </video>
+
+          <!-- some overlay text to describe the video -->
+          <div class="content">
+            <h1 class="content-h teal">Richard Lee</h1>
+            <h3 class="content-p">Front-End Dev</h3>
+            <p class="content-p">Based in Cali</p>
+            <p class="content-p">Currently being Updated</p>
+          </div>
+        
         </div>
+
+            <!-- /Video Header-->
+
+            <!-- About Me -->
+
+            <div class="container-fluid" id="about">
+              <div class="row">
+                <div class="col-md-6 mb-5 text-center">
+                      
+                </div>
+                <div class="col-md-6 mb-5">
+
+                </div>
+              </div>
+            </div>
+
+            <!-- /About Me -->
+
+            <!-- Projects -->
+
+            <div class="container-fluid">
+              <p class="text-white">Projects</p>
+              <p class="text-white">Soon to come!</p>
+            </div>
       </div>
-    </div>
 
-    <!-- /About Me -->
+            <!-- /Projects -->
 
-    <!-- Projects -->
+      <!-- footer -->
 
-    <div class="container-fluid">
-      <p class="text-white">Projects</p>
-      <p class="text-white">Soon to come!</p>
-    </div>
-
-    <!-- /Projects -->
-
-    <!-- footer -->
-
-    <div class="footer row py-3 bg-teal text-white">
-      <div class="col-md-4">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#top">Top</a>
-          </li>
-          <li class="nav-item">
-            <button class="nav-link" type="email">Contact Me</button>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md text-md-right mr-4">
-        <small>&copy;2020 Rich Lee Design &amp;R.L.D.</small>
+      <div  id="footer" class="row text-white">
+        <div class="col-md-4">
+          <table width="100%" style="max-width:80%">
+            <tr>
+            <td>
+            <table border="0" align="left" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+            <tr>
+            <td align="left">
+            <table border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+            <tr>
+            <td align="left" bgcolor="#fcb614" style="min-width:180px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; font-family: 'Neutraface-Demi', Arial, 'Helvetica Neue', Helvetica, sans-serif;">
+            <a class="msoAltFont" href="mailto: richleedeveloper@gmail.com" style="padding: 9px 12px; mso-padding-alt: 9px 12px; min-width:180px; display: block;text-decoration: none;border:0; text-align: center; text-transform:uppercase; font-weight: 600;font-size: 16px; color: #192858; background: #fcb614; border: 1px solid #fcb614;-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; mso-line-height-rule: exactly; line-height:18px;">Contact Me</a>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            </table>
+        </div>
+        <div class="col-md text-md-right mr-4">
+          <small>&copy;2020 Rich Lee Design &amp;R.L.D.</small>
+        </div>
       </div>
     </div>
 
@@ -127,5 +142,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
